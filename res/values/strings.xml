@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tracker General</string>
+    <string name="action_help">Ayuda</string>
+    <string name="action_share">Compartir</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_country_detail">CountryDetailActivity</string>
+    <string name="title_fragment_list">Listado</string>
+    <string name="title_fragment_banderas">Banderas</string>
+    <string name="msg_share">Comparto contigo la informacion de  %1$s %2$s</string>
+    <string name="msg_about">Creado por AngelOchoa, Asdrubal Batz y Kevin Galvez</string>
+
+    <string-array name="drawer_options">
+        <item>Categorias</item>
+        <item>Acerca De</item>
+    </string-array>
+
+    <string name="title_activity_nuevo_indice">Nuevo Indice</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="lbl_nuevo_indice">Nombre del Nuevo Indice:</string>
+    <string name="btn_nuevo_indice">Agregar</string>
+    
+    <string name="action_eliminar">Eliminar Categoria</string>
+    <string name="action_terminar">Listo</string>
+        <string name="action_crear">Nueva Categoría</string>
+    
+
+</resources>

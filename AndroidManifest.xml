@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sp1.tracker"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Base.AppCompat.Light.DarkActionBar" >
+        <activity
+            android:name="com.sp1.tracker.activities.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sp1.tracker.activities.CountryDetailActivity"
+            android:label="@string/title_activity_country_detail" >
+        </activity>
+        <activity
+            android:name="com.sp1.tracker.activities.NuevoIndice"
+            android:label="@string/title_activity_nuevo_indice"
+            android:parentActivityName="com.sp1.tracker.activities.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sp1.tracker.activities.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
